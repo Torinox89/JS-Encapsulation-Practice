@@ -63,8 +63,11 @@ function selectSandwich(sandwich) {
     const nameInput = document.querySelector(`.name-input`)
     nameInput.value = sandwich.name
 
-    renderCart()
-    renderIngredientList()
+    
+renderCart()
+ingredientList.render()
+
+
 }
 
 // We'll use this function to save the sandwich, either
